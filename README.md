@@ -7,4 +7,6 @@ I use a satellite email system (dovecot+postfix+fetchmail) to make my pop3 email
 
 pop3_quota_alert.py checks the pop3 server for disk usage quota and sends an alert email to the corresponding email account with the correct configuration on the top of the file.
 
+Please note that this script requires account password, so it should be run on a secure server. Example usage would be to run this script with an hourly cronjob on a personal VPS.
+
 Any suggestions or pull requests are welcome : )
